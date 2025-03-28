@@ -14,7 +14,7 @@ spec:
         - values-dev.yaml
   destination:
     namespace: guestbook-dev
-    name: dev
+    name: in-cluster
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
